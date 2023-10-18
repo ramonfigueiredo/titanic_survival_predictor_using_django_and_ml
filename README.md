@@ -41,6 +41,6 @@ cd titanic
 python manage.py runserver
 ```
 
-- Accesse the system using the link below:
+- Access the system using the link below:
 
 [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
