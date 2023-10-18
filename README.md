@@ -1,4 +1,4 @@
-![Titanic-sinking](https://github.com/ramonfigueiredo/titanic_survival_predictor_using_django_and_ml/tree/master/titanic_image.png)
+![Titanic-sinking](https://github.com/ramonfigueiredo/titanic_survival_predictor_using_django_and_ml/blob/main/titanic_image.png)
 
 # Titanic Survival Predictor ML Model 
 ### Tells whether a passenger (with characteristics as your input) can survive the Titanic drowning or not!
@@ -8,7 +8,7 @@ Also check the competetion [Titanic: Machine learning from Disaster](https://www
 
 
 ## System Overview
-![System overview](https://github.com/ramonfigueiredo/titanic_survival_predictor_using_django_and_ml/tree/master/system_overview.jpg)
+![System overview](https://github.com/ramonfigueiredo/titanic_survival_predictor_using_django_and_ml/blob/main/system_overview.jpg)
 
 
 ## Running the system
