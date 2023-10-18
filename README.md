@@ -1,0 +1,2 @@
+# titanic_survival_predictor_using_django_and_ml
+Titanic survival predictor using Django and Machine Learning
