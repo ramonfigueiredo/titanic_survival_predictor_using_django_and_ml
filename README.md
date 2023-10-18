@@ -34,3 +34,13 @@ pip install --upgrade pip
 ```
 source titanic_survival_predictor/bin/activate
 ```
+
+- Run the system
+```
+cd titanic
+python manage.py runserver
+```
+
+- Accesse the system using the link below:
+
+[http://127.0.0.1:8000/](http://127.0.0.1:8000/)
