@@ -8,7 +8,7 @@ Also check the competetion [Titanic: Machine learning from Disaster](https://www
 
 
 ## System Overview
-![System overview](https://github.com/ramonfigueiredo/titanic_survival_predictor_using_django_and_ml/blob/main/system_overview.jpg)
+![System overview](https://github.com/ramonfigueiredo/titanic_survival_predictor_using_django_and_ml/blob/main/images/system_overview.jpg)
 
 
 ## Running the system
@@ -61,11 +61,11 @@ Example using the system
 
 - Predicted: Survive
 
-![Titanic API using system - Example will_survive](https://github.com/ramonfigueiredo/titanic_survival_predictor_using_django_and_ml/blob/main/titanic_system_input_example_survived.png)
+![Titanic API using system - Example will_survive](https://github.com/ramonfigueiredo/titanic_survival_predictor_using_django_and_ml/blob/main/images/titanic_system_input_example_survived.png)
 
 - Predicted: Could not survive
 
-![Titanic API using system - Example could not survive](https://github.com/ramonfigueiredo/titanic_survival_predictor_using_django_and_ml/blob/main/titanic_system_input_example_could_not_survive.png)  
+![Titanic API using system - Example could not survive](https://github.com/ramonfigueiredo/titanic_survival_predictor_using_django_and_ml/blob/main/images/titanic_system_input_example_could_not_survive.png)  
 
 
 - Access the admin page using the link below:
@@ -97,11 +97,11 @@ Example using Postman
 
 - Predicted: Survive
 
-![Titanic API using Postman - Example will_survive](https://github.com/ramonfigueiredo/titanic_survival_predictor_using_django_and_ml/blob/main/titanic_api_using_postman_input_example_survived.png)
+![Titanic API using Postman - Example will_survive](https://github.com/ramonfigueiredo/titanic_survival_predictor_using_django_and_ml/blob/main/images/titanic_api_using_postman_input_example_survived.png)
 
 - Predicted: Could not survive
 
-![Titanic API using Postman - Example could not survive](https://github.com/ramonfigueiredo/titanic_survival_predictor_using_django_and_ml/blob/main/titanic_api_using_postman_input_example_could_not_survive.png)  
+![Titanic API using Postman - Example could not survive](https://github.com/ramonfigueiredo/titanic_survival_predictor_using_django_and_ml/blob/main/images/titanic_api_using_postman_input_example_could_not_survive.png)  
 
 Example using curl
 
