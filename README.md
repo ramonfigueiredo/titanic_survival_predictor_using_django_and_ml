@@ -35,12 +35,28 @@ pip install --upgrade pip
 source titanic_survival_predictor/bin/activate
 ```
 
+- Make migrations
+
+```
+python manage.py migrate
+```
+
+- Create an admin user and password
+
+```
+python manage.py createsuperuser --email admin@example.com --username admin
+```
+
 - Run the system
 ```
 cd titanic
 python manage.py runserver
 ```
 
-- Access the system using the link below:
+- Access the Titanic Survival Predictor system using the link below
 
 [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+
+- Access the admin page using the link below:
+
+[http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin)
