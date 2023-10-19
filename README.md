@@ -57,6 +57,17 @@ python manage.py runserver
 
 [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
+Example using the system
+
+- Predicted: Survive
+
+![Titanic API using system - Example will_survive](https://github.com/ramonfigueiredo/titanic_survival_predictor_using_django_and_ml/blob/main/titanic_system_input_example_survived.png)
+
+- Predicted: Could not survive
+
+![Titanic API using system - Example could not survive](https://github.com/ramonfigueiredo/titanic_survival_predictor_using_django_and_ml/blob/main/titanic_system_input_example_could_not_survive.png)  
+
+
 - Access the admin page using the link below:
 
 [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin)
