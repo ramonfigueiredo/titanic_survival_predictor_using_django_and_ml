@@ -103,7 +103,7 @@ Example using Postman
 
 ![Titanic API using Postman - Example could not survive](https://github.com/ramonfigueiredo/titanic_survival_predictor_using_django_and_ml/blob/main/images/titanic_api_using_postman_input_example_could_not_survive.png)  
 
-Example using curl
+Example using [curl](https://curl.se/docs/tutorial.html)
 
 - Predicted: Survive
 
@@ -153,7 +153,7 @@ Cross-Origin-Opener-Policy: same-origin
 {"error":"0","message":"Successfull","prediction":[0],"confidence_score":100.0
 ```
 
-Example using httpie
+Example using [httpie](https://httpie.io/docs/cli)
 
 - Predicted: Survive
 
