@@ -55,8 +55,12 @@ python manage.py runserver
 
 - Access the Titanic Survival Predictor system using the link below
 
-[http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+[http://127.0.0.1:8000/predict](http://127.0.0.1:8000/predict)
 
 - Access the admin page using the link below:
 
 [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin)
+
+- Access the API to create users and groups using the link below
+
+[http://127.0.0.1:8000/predict](http://127.0.0.1:8000/)
