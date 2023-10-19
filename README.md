@@ -152,3 +152,86 @@ Cross-Origin-Opener-Policy: same-origin
 
 {"error":"0","message":"Successfull","prediction":[0],"confidence_score":100.0
 ```
+
+Example using httpie
+
+- Predicted: Survive
+
+```
+http http://127.0.0.1:8000/api/predict-titanic-survival pclass=2 sex=1 age=40 sibsp=1 parch=1 fare=40 embC=1 embQ=0 embS=0
+```
+
+Output:
+
+```
+HTTP/1.1 200 OK
+Allow: POST, OPTIONS
+Content-Length: 79
+Content-Type: application/json
+Cross-Origin-Opener-Policy: same-origin
+Date: Thu, 19 Oct 2023 22:11:52 GMT
+Referrer-Policy: same-origin
+Server: WSGIServer/0.2 CPython/3.11.3
+Vary: Accept, Cookie
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+
+{
+    "confidence_score": 100.0,
+    "error": "0",
+    "message": "Successfull",
+    "prediction": [
+        1
+    ]
+}
+```
+
+- Predicted: Could not survive
+
+```
+http http://127.0.0.1:8000/api/predict-titanic-survival pclass=1 sex=0 age=80 sibsp=2 parch=1 fare=6 embC=1 embQ=0 embS=0
+```
+
+Output:
+
+```
+HTTP/1.1 405 Method Not Allowed
+Allow: POST, OPTIONS
+Content-Length: 40
+Content-Type: application/json
+Cross-Origin-Opener-Policy: same-origin
+Date: Thu, 19 Oct 2023 22:06:59 GMT
+Referrer-Policy: same-origin
+Server: WSGIServer/0.2 CPython/3.11.3
+Vary: Accept, Cookie
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+
+{
+    "detail": "Method \"GET\" not allowed."
+}
+
+
+(titanic_survival_predictor) (base) ramon@Ramons-MacBook-Pro titanic_survival_predictor_using_django_and_ml %   clear
+(titanic_survival_predictor) (base) ramon@Ramons-MacBook-Pro titanic_survival_predictor_using_django_and_ml % http http://127.0.0.1:8000/api/predict-titanic-survival pclass=1 sex=0 age=80 sibsp=2 parch=1 fare=6 embC=1 embQ=0 embS=0
+HTTP/1.1 200 OK
+Allow: POST, OPTIONS
+Content-Length: 79
+Content-Type: application/json
+Cross-Origin-Opener-Policy: same-origin
+Date: Thu, 19 Oct 2023 22:09:50 GMT
+Referrer-Policy: same-origin
+Server: WSGIServer/0.2 CPython/3.11.3
+Vary: Accept, Cookie
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+
+{
+    "confidence_score": 100.0,
+    "error": "0",
+    "message": "Successfull",
+    "prediction": [
+        0
+    ]
+}
+```
