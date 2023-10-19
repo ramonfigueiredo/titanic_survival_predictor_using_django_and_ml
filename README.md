@@ -13,7 +13,7 @@ Also check the competetion [Titanic: Machine learning from Disaster](https://www
 
 ## Running the system
 
-- Install python3 and virtualenv
+- Install [Python3](https://www.python.org/downloads/) and [virtualenv](https://virtualenv.pypa.io/en/latest/)
 
 - Create a virtual environment
 ```
