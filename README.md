@@ -55,7 +55,7 @@ python manage.py runserver
 
 - Access the Titanic Survival Predictor system using the link below
 
-[http://127.0.0.1:8000/predict](http://127.0.0.1:8000/predict)
+[http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 - Access the admin page using the link below:
 
@@ -63,4 +63,31 @@ python manage.py runserver
 
 - Access the API to create users and groups using the link below
 
-[http://127.0.0.1:8000/predict](http://127.0.0.1:8000/)
+[http://127.0.0.1:8000/api](http://127.0.0.1:8000/api)
+
+- Access the API to predict Titanic people survival using the link below
+
+POST [http://127.0.0.1:8000/api/predict-titanic-survival](http://127.0.0.1:8000/api/predict-titanic-survival)
+```
+{
+    "pclass": "",
+    "sex": "",
+    "age": "",
+    "sibsp": "",
+    "parch": "",
+    "fare": "",
+    "embC": "",
+    "embQ": "",
+    "embS": ""
+}
+```
+
+Example using Postman
+
+- Predicted: Survive
+
+![Titanic API using Postman - Example will_survive](https://github.com/ramonfigueiredo/titanic_survival_predictor_using_django_and_ml/blob/main/titanic_api_using_postman_input_example_survived.png)
+
+- Predicted: Could not survive
+
+![Titanic API using Postman - Example could not survive](https://github.com/ramonfigueiredo/titanic_survival_predictor_using_django_and_ml/blob/main/titanic_api_using_postman_input_example_could_not_survive.png)  
