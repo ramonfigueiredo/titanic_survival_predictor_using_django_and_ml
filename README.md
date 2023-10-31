@@ -12,7 +12,7 @@ Also check the competetion [Titanic: Machine learning from Disaster](https://www
 ## Contents
 
 1. [System Overview](#system-overview)
-2. [Deploy and run the system using Docker](#deploy-and-run-the-system-using-docker))
+2. [Deploy and run the system using Docker](#deploy-and-run-the-system-using-docker)
 3. [Running the system locally](#running-the-system-locally)
 4. [Access the Titanic Survival Predictor system](#access-the-titanic-survival-predictor-system)
 5. [Access the Admin page](#access-the-admin-page)
