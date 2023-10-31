@@ -1,17 +1,59 @@
 ![Titanic-sinking](https://github.com/ramonfigueiredo/titanic_survival_predictor_using_django_and_ml/blob/main/images/titanic_image.png)
 
 # Titanic Survival Predictor ML Model 
+
+by [Ramon Figueiredo Pessoa](https://ramonfigueiredopessoa.github.io/)
+
 ### Tells whether a passenger (with characteristics as your input) can survive the Titanic drowning or not!
 
 The model and dataset can be found [here](https://github.com/ramonfigueiredo/titanic_survival_predictor_using_django_and_ml/tree/master/model_and_data).
 Also check the competetion [Titanic: Machine learning from Disaster](https://www.kaggle.com/c/titanic) on kaggle.
 
+## Contents
+
+1. [System Overview](#system-overview)
+2. [Deploy and run the system using Docker](#deploy-and-run-the-system-using-docker))
+3. [Running the system locally](#running-the-system-locally)
+4. [Access the Titanic Survival Predictor system](access-the-titanic-survival-predictor-system)
+5. [Access the Admin page](access-the-admin-page)
+6. [Access the API](access-the-api)
 
 ## System Overview
 ![System overview](https://github.com/ramonfigueiredo/titanic_survival_predictor_using_django_and_ml/blob/main/images/system_overview.jpg)
 
+Go back to [Contents](#contents).
 
-## Running the system
+## Deploy and run the system using Docker
+
+- Open the system folder
+```shell
+cd titanic_survival_predictor_using_django_and_ml
+```
+
+- Run the system
+
+Type:
+
+```shell
+docker compose up
+```
+
+- Access the system using 
+
+http://localhost:8000/
+
+- Stop the system
+  - Press ctrl + c
+
+Type:
+
+```shell
+docker compose down
+```
+
+Go back to [Contents](#contents).
+
+## Running the system locally
 
 - Install [Python3](https://www.python.org/downloads/) and [virtualenv](https://virtualenv.pypa.io/en/latest/)
 
@@ -53,6 +95,10 @@ cd titanic
 python manage.py runserver
 ```
 
+Go back to [Contents](#contents).
+
+## Access the Titanic Survival Predictor system 
+
 - Access the Titanic Survival Predictor system using the link below
 
 [http://127.0.0.1:8000](http://127.0.0.1:8000)
@@ -68,9 +114,17 @@ Example using the system
 ![Titanic API using system - Example could not survive](https://github.com/ramonfigueiredo/titanic_survival_predictor_using_django_and_ml/blob/main/images/titanic_system_input_example_could_not_survive.png)  
 
 
+Go back to [Contents](#contents).
+
+## Access the Admin page
+
 - Access the admin page using the link below:
 
 [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin)
+
+Go back to [Contents](#contents).
+
+## Access the API
 
 - Access the API to create users and groups using the link below
 
@@ -92,6 +146,8 @@ POST [http://127.0.0.1:8000/api/predict-titanic-survival](http://127.0.0.1:8000/
     "embS": ""
 }
 ```
+
+Go back to [Contents](#contents).
 
 Example using Postman
 
@@ -152,6 +208,8 @@ Cross-Origin-Opener-Policy: same-origin
 
 {"error":"0","message":"Successfull","prediction":[0],"confidence_score":100.0
 ```
+
+Go back to [Contents](#contents).
 
 Example using [httpie](https://httpie.io/docs/cli)
 
@@ -235,3 +293,5 @@ X-Frame-Options: DENY
     ]
 }
 ```
+
+Go back to [Contents](#contents).
