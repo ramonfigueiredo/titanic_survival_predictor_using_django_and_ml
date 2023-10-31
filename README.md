@@ -25,6 +25,8 @@ Go back to [Contents](#contents).
 
 ## Deploy and run the system using Docker
 
+- Install [Docker](https://docs.docker.com/engine/install/).
+
 - Open the system folder
 ```shell
 cd titanic_survival_predictor_using_django_and_ml
