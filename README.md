@@ -4,7 +4,7 @@
 
 by [Ramon Figueiredo](https://ramonfigueiredo.github.io/)
 
-### Tells whether a passenger (with characteristics as your input) can survive the Titanic drowning or not!
+This system tells whether a passenger (with characteristics as your input) can survive the Titanic drowning or not!
 
 The model and dataset can be found [here](https://github.com/ramonfigueiredo/titanic_survival_predictor_using_django_and_ml/tree/master/model_and_data).
 Also check the competetion [Titanic: Machine learning from Disaster](https://www.kaggle.com/c/titanic) on kaggle.
