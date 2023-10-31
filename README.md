@@ -2,7 +2,7 @@
 
 # Titanic Survival Predictor ML Model 
 
-by [Ramon Figueiredo Pessoa](https://ramonfigueiredopessoa.github.io/)
+by [Ramon Figueiredo](https://ramonfigueiredo.github.io/)
 
 ### Tells whether a passenger (with characteristics as your input) can survive the Titanic drowning or not!
 
