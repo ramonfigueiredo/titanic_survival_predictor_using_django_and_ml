@@ -14,9 +14,9 @@ Also check the competetion [Titanic: Machine learning from Disaster](https://www
 1. [System Overview](#system-overview)
 2. [Deploy and run the system using Docker](#deploy-and-run-the-system-using-docker))
 3. [Running the system locally](#running-the-system-locally)
-4. [Access the Titanic Survival Predictor system](access-the-titanic-survival-predictor-system)
-5. [Access the Admin page](access-the-admin-page)
-6. [Access the API](access-the-api)
+4. [Access the Titanic Survival Predictor system](#access-the-titanic-survival-predictor-system)
+5. [Access the Admin page](#access-the-admin-page)
+6. [Access the API](#access-the-api)
 
 ## System Overview
 ![System overview](https://github.com/ramonfigueiredo/titanic_survival_predictor_using_django_and_ml/blob/main/images/system_overview.jpg)
